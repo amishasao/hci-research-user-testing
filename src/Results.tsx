@@ -18,6 +18,7 @@ function Results({ pointsMap, stopwatchMap }: ResultsProps) {
           return (
             <div>
               <p>
+                {/* @ts-ignore */}
                 Question {key}: {pointsMap[key].toString()} points
               </p>
             </div>
@@ -31,6 +32,7 @@ function Results({ pointsMap, stopwatchMap }: ResultsProps) {
         return (
           <div>
             <p>
+              {/* @ts-ignore */}
               Question {key}: {stopwatchMap[key].toString()} seconds
             </p>
           </div>

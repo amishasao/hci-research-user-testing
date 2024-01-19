@@ -99,6 +99,7 @@ function App() {
           borderColor: "#000",
         }}
       >
+        {/* @ts-ignore */}
         <Results pointsMap={mainMap} stopwatchMap={stopwatchMap} />
       </div>
     </div>

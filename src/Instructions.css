@@ -1,0 +1,13 @@
+.sidebar{
+    background-color: #AAA;
+    /* width: 33vw; */
+}
+
+.cont{
+    height: 100vh;
+}
+
+.instructions{
+    /* width: 66vh; */
+    background-color: aqua;
+}
